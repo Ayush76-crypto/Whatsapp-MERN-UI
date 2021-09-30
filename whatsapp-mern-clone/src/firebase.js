@@ -1,3 +1,4 @@
+//Firebase not used for this prooject
 const firebaseConfig = {
   apiKey: "AIzaSyDIA7lAHGyDQDtoryJJohdvSAvYJ21Mcfg",
   authDomain: "whatsapp-mern-759db.firebaseapp.com",

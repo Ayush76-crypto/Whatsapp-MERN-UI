@@ -3,22 +3,26 @@
     flex-direction: column;
     flex: 0.35;
 }
+
 .sidebar__header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-radius: 1px solid lightgrey;
 }
+
 .siderbar__headerRight {
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 10vw;
 }
+
 .siderbar__headerRight > .MuiSvgIcon-root {
     margin-right: 2vw;
     font-size: 24px !important;
 }
+
 .sidebar__search {
     display: flex;
     align-items: center;
@@ -26,6 +30,7 @@
     height: 30px;
     padding: 10px;
 }
+
 .sidebar__searchContainer {
     display: flex;
     align-items: center;
@@ -34,15 +39,18 @@
     height: 35px;
     border-radius: 20px;
 }
+
 .sidebar__searchContainer > .MuiSvgIcon-root {
     color: grey;
     padding: 10px;
 }
+
 .sidebar__searchContainer > input {
     border: none;
     outline-width: none;
     margin-left: 10px;
 }
+
 .sidebar__chats {
     flex: 1;
     background-color: white;

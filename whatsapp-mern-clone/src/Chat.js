@@ -8,25 +8,22 @@ import {
 } from "@material-ui/icons";
 import React, { useState } from "react";
 import "./Chat.css";
-import axios from './axios';
+import axios from "./axios";
 
 function Chat({ messages }) {
   const [input, setInput] = useState("");
 
-  // const timestamp = Date.now();
-
   const sendMessage = async (e) => {
     e.preventDefault();
 
-    axios.post('./messages/new', {
+    axios.post("./messages/new", {
       message: input,
       name: "DEMO APP",
       timestamp: "JUST NOW!",
       received: false,
     });
 
-    setInput('');
-
+    setInput("");
   };
 
   return (

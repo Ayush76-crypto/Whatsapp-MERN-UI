@@ -3,7 +3,9 @@ import React from 'react'
 import './SidebarChat.css'
 
 function SidebarChat() {
+
     return (
+
         <div className="sidebarChat">
             <Avatar />
             <div className="sidebarChat__info">
@@ -11,7 +13,8 @@ function SidebarChat() {
                 <p>Class starts in 15 minutes!</p>
             </div>
         </div>
+
     )
 }
 
-export default SidebarChat
+export default SidebarChat;
