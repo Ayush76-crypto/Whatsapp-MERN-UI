@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    //once
+
     const pusher = new Pusher('4a4a8022810f89fae4c9', {
       cluster: 'eu'
     });
@@ -35,7 +35,6 @@ function App() {
 
   }, [messages]);
 
-  // console.log(response.data);
 
   return (
     <div className="app"> 
