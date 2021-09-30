@@ -22,7 +22,6 @@ const connection_url =
   "mongodb+srv://Jackoo:B8B8IbD8VMZqHn7G@cluster0.vp6vz.mongodb.net/whatsappdb?retryWrites=true&w=majority";
 
 mongoose.connect(connection_url, {
-  // useCreateIndex: true,
   usenewUrlParser: true,
   useUnifiedTopology: true,
 });
