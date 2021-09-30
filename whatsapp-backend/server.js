@@ -15,16 +15,8 @@ const pusher = new Pusher({
   useTLS: true,
 });
 
-
-
 app.use(express.json());
 app.use(cors());
-
-// app.use((req, res, next) => {
-//   res.setHeader("Access-Control-Allow-Origin", "*");
-//   res.setHeader("Access-Control-Allow-Headers", "*");
-//   next();
-// });
 
 const connection_url =
   "mongodb+srv://Jackoo:B8B8IbD8VMZqHn7G@cluster0.vp6vz.mongodb.net/whatsappdb?retryWrites=true&w=majority";
