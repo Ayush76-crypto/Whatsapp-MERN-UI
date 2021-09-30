@@ -7,6 +7,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import SidebarChat from "./SidebarChat";
 
 function Sidebar() {
+  
   return (
     <div className="sidebar">
       <div className="sidebar__header">
